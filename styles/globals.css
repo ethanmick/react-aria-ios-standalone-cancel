@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .webkit-highlight-transparent {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+a {
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
