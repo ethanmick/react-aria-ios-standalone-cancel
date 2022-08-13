@@ -85,12 +85,12 @@ const OnPressFramerAriaLink = () => {
 const Home: NextPage = () => {
   return (
     <div className="flex flex-col gap-4 p-4">
-      <NormalLink />
+      {/* <NormalLink />
       <NextLink />
-      <AriaNormalLink />
+      <AriaNormalLink /> */}
       <AriaNextLink />
-      <FramerAriaNextLink />
-      <OnPressFramerAriaLink />
+      {/* <FramerAriaNextLink />
+      <OnPressFramerAriaLink /> */}
     </div>
   )
 }
